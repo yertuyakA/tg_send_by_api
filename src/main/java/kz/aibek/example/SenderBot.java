@@ -26,9 +26,9 @@ public class SenderBot extends TelegramLongPollingBot {
                                     //do nothing
                                 }
                             } catch (IOException s) {
-                                System.out.println(")))))");
+                                //do nothing
                             }
-                            Thread.sleep(5000);
+                             Thread.sleep(5000);
                         }
                     } catch (InterruptedException e) {
                         e.printStackTrace();
@@ -38,7 +38,7 @@ public class SenderBot extends TelegramLongPollingBot {
 
 
     public String getBotUsername() {
-        return "Ersn";
+        return "TestBot";
     }
 
     public String getBotToken() {
